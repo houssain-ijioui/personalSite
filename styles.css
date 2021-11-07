@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+nav {
+  background-color: #be3144;
+  text-align: end;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
+  padding: 28px 20px;
+  position: relative;
+  top: 12px;
+}
+
+nav a:hover {
+  background-color: black;
+  opacity: 0.6;
+}
+
+/* FIRST SECTION */
+.top {
+  height: 940px;
+  background: #343b44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.top h3 {
+  color: #be3144;
+  font-style: italic;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* SECOND SECTION */
+.proj {
+  background-color: #45567d;
+  height: 1670px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proj h1 {
+  text-align: center;
+  padding: 80px;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.proj hr {
+  font-weight: bold;
+  position: relative;
+  top: -80px;
+  width: 600px;
+  align-self: center;
+}
+
+.proj .boxs {
+  display: grid;
+  grid-template-rows: 408px 408px;
+  grid-template-columns: 432px 432px;
+  grid-gap: 50px;
+  align-self: center;
+}
+
+.box {
+  background-color: #303841;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.box img {
+  width: 430px;
+  height: 350px;
+  transition-duration: .2s;
+}
+
+.box img:hover {
+  width: 438px;
+  height: 365px;
+}
+
+.box figcaption {
+  color: white;
+  font-weight: bold;
+  opacity: 0.7;
+  padding: 8px;
+  font-size: 1.1rem;
+}
+
+code {
+  color: #be3144;
+  font-size: 1.1rem;
+  margin: 0 5px;
+}
+
+.proj button {
+  align-self: center;
+  margin: 50px 0;
+  background-color: #343b44;
+  width: 140px;
+  height: 120px;
+  font-size: 1.3rem;
+  color: white;
+  opacity: 0.8;
+  border: 0;
+  cursor: pointer;
+}
+
+.proj button:hover {
+  background-color: #be3144;
+  opacity: 1;
+}
+
+small {
+  font-size: 1.5rem;
+  position: relative;
+  top: 1px;
+}
+
+/* LAST SECTION */
+.bottom {
+  height: 890px;
+  background: #343b44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.bottom h3 {
+  color: white;
+  font-style: italic;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.buttons a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.buttons a:hover {
+  font-size: 1.6rem;
+  transition: margin-right 0.4s;
+}
+
+footer {
+  position: relative;
+  top: 300px;
+  color: white;
+  font-size: 1.2rem;
+}
